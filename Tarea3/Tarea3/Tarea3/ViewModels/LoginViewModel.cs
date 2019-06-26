@@ -56,8 +56,6 @@ namespace Tarea3.ViewModels
             this.IsRemembered = true;
             this.IsEnabled = true;
 
-            this.Email = "jzuluaga55@gmail.com";
-            this.Password = "1234";
 
             // http://restcountries.eu/rest/v2/all
         }
@@ -95,7 +93,7 @@ namespace Tarea3.ViewModels
             this.IsRunning = true;
             this.IsEnabled = false;
 
-            if (this.Email != "jzuluaga55@gmail.com" || this.Password != "1234")
+            if (this.Email != "dianateranargandona@gmail.com" || this.Password != "1234")
             {
                 this.IsRunning = false;
                 this.IsEnabled = true;
